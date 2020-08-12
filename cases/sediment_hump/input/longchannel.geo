@@ -1,0 +1,14 @@
+Point(1) = {0, 0, 0, 40};
+Point(2) = {1500, 0, 0, 40};
+Point(3) = {1500, 1000, 0, 40};
+Point(4) = {0, 1000, 0, 40};
+Line (1) = {1, 2};
+Line (2) = {2, 3};
+Line (3) = {3, 4};
+Line (4) = {4, 1};
+Line Loop (1000006) = {3, 4, 1, 2};
+Plane Surface (6) = {1000006};
+Physical Line (1) = {4};
+Physical Line (2) = {2};
+Physical Line (3) = {3, 1};
+Physical Surface (10) = {6};

@@ -1,0 +1,11 @@
+2650   !rhos
+1000   !rhow
+0.0004   !diam
+0.4     !porosity
+0.047     !thita_cri_b
+0.1     !thita_cri_s
+0.52    !angleofRepose
+0       !C_slope
+0.7     !sigmac
+2       !sediment transport rate formula: 1-MPM, 2-Grass
+0.0005 3     !A and m value for Grass sediment transport rate formula

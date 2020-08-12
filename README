@@ -1,0 +1,36 @@
+HydroSed2D for Linux: HydrsoSed2D was originally hosted on sourceforge. But for convinience, it has been migrated to GitHub. 
+
+1. Installation
+   git clone to our own computer. Usually, I will put the installation into $Home/research/HydroSed2D_public
+   Modify the Makefile also to reflect the relative path.
+
+   cd ~/research/HydroSed2D_public
+   make
+
+2. Run
+   cd cases
+   mkdir case1
+   ln -s ../../bin/HydroSed2D ./   %link the excutable here
+
+   %put all your input files in this directory
+   mkdir input
+
+   %results will be put in this directory
+   mkdir results
+
+   %run the job
+   ./HydroSed2D
+
+   (see the example case for details)
+
+3. Post processing
+   All results can be shown in Tecplot. Since Paraview can directly load Tecplot data, the results
+   should be able to be loaded into Paraview too (haven't tested yet).
+
+4. Notes
+   * HydroSed2D is not actively developed any more. There are many alternatives such as SRH-2D and HEC-RAS 2D. 
+   * It is archived here in case it is useful to others.
+
+5. Contact:
+   Xiaofeng Liu, Ph.D., P.E.
+   Penn State University 

@@ -1,0 +1,40 @@
+"runtype: 0-run from start, 1-run from restart"
+0
+"reload file name"
+re100.dat
+"dt","nts","ts","td","tstop"
+0.0001,1,0,0,2
+"g","visc","beta","n"
+9.8,0.0,1,0.01
+"drydeep","mindeep"
+0.01,0.001
+"inlet_condition_control: 1-given h, 2-given u, 3-given q"
+3
+"inletH inletUB inletVB inletQ"
+1 1.53 0 0.18
+"outlet_condition_control(for downstream): 1-given h, 2-given u, 3-far field (zero gradient)"
+3
+"outletH outletUB outletVB outletQ"
+0.33 2 0 0.18
+"deltaT for output results (deltaT_output)"
+1000
+"deltaT for restart results (deltaT_restart)"
+200000
+"frictioncontrol"
+1
+"sedimentcontrol"
+0
+"terraindeal"
+0	100	10
+"terrainfilename"
+"dmterrain.txt"
+"mesh file format: 1. gmsh  2. gambit neutral"
+1
+"mesh file name"
+"rect_hump_new.msh"
+"q-tfilename"
+"qt.txt"
+"q-hfilename"
+"qh.txt"
+"s-tfilename"
+"st.txt"
